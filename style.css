@@ -1,0 +1,39 @@
+body{
+    background-image: linear-gradient(green,aqua);
+    color: white;
+    padding-bottom: 10%;
+}
+header{
+  text-align: center;
+  padding: 5px;
+  top: 0;
+  z-index: 9999;
+}
+
+#developer{
+    color: white;
+}
+footer{
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+#camera{
+    width: 500px;
+    height: 400px;
+    border-radius: 40px;
+    border-color: #333;
+}
+img{
+    width: 600px;
+    padding: 10px;
+    box-shadow: 0 6px 8px 0 rgba(2,2,2,0.2);;
+}
+img:hover{
+    border-radius: 140px;
+}
